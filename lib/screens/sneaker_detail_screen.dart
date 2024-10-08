@@ -61,7 +61,7 @@ class _SneakerDetailScreenState extends State<SneakerDetailScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.network(
-              widget.sneaker.imagePath, // Используем Image.network вместо Image.asset
+              widget.sneaker.imagePath, 
               fit: BoxFit.cover,
               height: 300,
               width: double.infinity,
@@ -118,15 +118,15 @@ class _SneakerDetailScreenState extends State<SneakerDetailScreen> {
             TextButton(
               child: Text('Отмена'),
               onPressed: () {
-                Navigator.of(context).pop(); // Закрыть диалог
+                Navigator.of(context).pop(); 
               },
             ),
             TextButton(
               child: Text('Удалить'),
               onPressed: () {
-                widget.onDelete(); // Вызвать функцию удаления
-                Navigator.of(context).pop(); // Закрыть диалог
-                Navigator.of(context).pop(); // Вернуться на предыдущий экран
+                widget.onDelete(); 
+                Navigator.of(context).pop(); 
+                Navigator.of(context).pop(); 
               },
             ),
           ],
