@@ -5,4 +5,5 @@
 
 # Содержание работы
 Добавил BottomNavigationBar, разделил список товаров на 2 столбца при помощи GridView, появилась возможность добавлять товар в избранное, появился экран с профилем пользователя.
-[SVID_20241008_225955_1.webm](https://github.com/user-attachments/assets/3077ef45-2557-464f-8f5e-3d8815127d71)
+
+[SVID_20241008_225955_1.webm](https://github.com/user-attachments/assets/d610c11b-3cbc-4e9f-9ef3-6472ce78ba93)
