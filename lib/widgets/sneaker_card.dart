@@ -26,7 +26,7 @@ class SneakerCard extends StatelessWidget {
           children: [
             Expanded(
               child: Image.network(
-                sneaker.imagePath, // Используем Image.network вместо Image.asset
+                sneaker.imagePath, 
                 fit: BoxFit.cover,
                 width: double.infinity,
                 loadingBuilder: (BuildContext context, Widget child, ImageChunkEvent? loadingProgress) {
