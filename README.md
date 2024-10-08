@@ -1,16 +1,8 @@
-# sneaker_shop
+# Программирование корпоративных систем
+Дисциплина: **Программирование корпоративных систем** <br>
+Семестр: 5 <br>
+Выполнил студент **ЭФБО-04-22 Медведев А.А.** <br>
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Содержание работы
+Добавил BottomNavigationBar, разделил список товаров на 2 столбца при помощи GridView, появилась возможность добавлять товар в избранное, появился экран с профилем пользователя.
+[SVID_20241008_225955_1.webm](https://github.com/user-attachments/assets/3077ef45-2557-464f-8f5e-3d8815127d71)
